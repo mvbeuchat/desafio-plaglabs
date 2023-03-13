@@ -25,7 +25,7 @@ function SalesByClient(){
 
     const columns = [
         {
-          title: 'Categoria',
+          title: 'Cliente',
           dataIndex: 'name',
           key: 'name',
         },
@@ -44,6 +44,7 @@ function SalesByClient(){
 
     return (
     <div>
+        <h2>Clientes</h2>
         <Table columns={columns} dataSource={clients} />
     </div>
     );

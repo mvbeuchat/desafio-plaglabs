@@ -45,6 +45,7 @@ function SalesByCategory(){
 
     return (
     <div>
+        <h2>Categorias</h2>
         <Table columns={columns} dataSource={categories} />
     </div>
     );

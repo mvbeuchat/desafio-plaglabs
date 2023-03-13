@@ -44,6 +44,7 @@ function Sales(){
 
     return (
     <div>
+        <h2>Ventas</h2>
         <Table columns={columns} dataSource={sales}/>
     </div>
     );

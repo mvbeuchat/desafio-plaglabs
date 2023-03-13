@@ -45,6 +45,7 @@ function SalesByProduct(){
 
     return (
     <div>
+        <h2>Productos</h2>
         <Table columns={columns} dataSource={products}/>
     </div>
     );
